@@ -1,4 +1,8 @@
 .ipynb_checkpoints
 *.pt
-results/*
-transformer/*
+NLP/NLP04/results/*
+NLP/NLP04/models/*
+NLP/NLP04/transformer/*
+NLP/NLP04/KoChatGPT/*
+NLP/NLP04//chatgpt/*
+NLP/NLP04/test/*
