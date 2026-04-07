@@ -86,7 +86,7 @@ streamlit run frontend/app.py
 ## ✅ Day 8 최종 체크포인트 답변
 
 **Q1. Pydantic 검증은 어떤 잘못된 입력을 막아줍니까?**  
-- 입력/출력에 대한 값의 범위 지정
+- 라벨에 대한 이름과 개수의 유효성 검증
 
 **Q2. `Depends(verify_api_key)`를 제거하면 어떤 위험이 있습니까?**  
 - 누구나 API 활용 가능
