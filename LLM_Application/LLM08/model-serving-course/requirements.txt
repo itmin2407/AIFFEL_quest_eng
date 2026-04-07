@@ -1,0 +1,28 @@
+# Zero-shot 이미지 분류 서비스 의존성
+
+# ── 백엔드 ────────────────────────────────
+fastapi>=0.111.0
+uvicorn[standard]>=0.29.0
+python-multipart>=0.0.9    # UploadFile 지원
+
+# ── AI 모델 ──────────────────────────────
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.6.0
+torchvision==0.21.0
+torchaudio==2.6.0
+
+transformers>=4.40.0
+Pillow>=10.3.0
+
+# ── 프론트엔드 ────────────────────────────
+streamlit>=1.35.0
+requests>=2.31.0
+pandas>=2.2.0
+chardet>=5.0.0
+
+# ── 테스트 ───────────────────────────────
+pytest>=8.2.0
+httpx>=0.27.0              # FastAPI TestClient
+
+# ── 개발 편의 ─────────────────────────────
+nest-asyncio>=1.6.0        # 노트북에서 서버 실행 시 필요
